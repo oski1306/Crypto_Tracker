@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyCrypto</title>
+</head>
+<body>
+    <h1>MyCrypto</h1>
+
+    <main class="container">
+        <div class="empty-state" id="empty-state">
+            <div class="add-card" id="addCoinBtn">
+                <span>+</span>
+            </div>
+            <p>No coins added</p>
+        </div>
+
+        <div class="coin-list" id="coinList"></div>
+    </main>
+
+    <div class="modal hidden" id="modal">
+        <div class="modal-content">
+
+            <span class="close-btn" id="closeModal">x</span>
+
+            <h2>Add coin</h2>
+
+            <label>Coin:</label>
+            <select id="coinSelectModal">
+                <option value="btcusdt">Bitcoin</option>
+                <option value="ethusdt">Ethereum</option>
+            </select>
+
+            <label>Amount:</label>
+            <input type="number" placeholder="Enter amount"/>
+
+            <button class="add-btn">Add</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
