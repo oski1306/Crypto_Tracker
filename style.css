@@ -140,3 +140,71 @@ body {
     padding: 3px 6px;
     border-radius: 10px;
 }
+
+.settings-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.apply-btn {
+    background: #3bb273;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.settings-btn {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.confirm-section {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.old-value {
+    color: #e74c3c;
+    margin-right: 5px;
+}
+
+.new-value {
+    color: #2ecc71;
+    margin-left: 5px;
+}
+
+.confirm-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.no-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.yes-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
