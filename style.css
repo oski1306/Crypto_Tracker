@@ -208,3 +208,68 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
+.filter {
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 10px;
+    background: #ddd;
+}
+
+.filter.active {
+    background: #ffdddd;
+    color: red;
+}
+
+.extended-panel {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    width: 400px;
+}
+
+.extended-content {
+    border: 2px dashed #333;
+    border-radius: 20px;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+.extended-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extended-filters span {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.ext-filter.active {
+    color: red;
+    font-weight: bold;
+}
+
+.chart-container {
+    height: 220px;
+    margin: 15px 0 25px 0;
+    padding: 5px 0;
+}
+
+#chart {
+    width: 100%;
+    height: 100%;
+}
+
+.extended-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.extended-price {
+    margin-bottom: 15%;
+    font-size: 18px;
+}

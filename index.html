@@ -18,6 +18,43 @@
         </div>
 
         <div class="coin-list" id="coinList"></div>
+
+        <div class="extended-panel hidden" id="extendedPanel">
+            <div class="extended-content">
+
+                <div class="extended-header">
+                    <h2 id="extendedTitle">BTC</h2>
+
+                    <div class="extended-filters">
+                        <span class="ext-filter active" data-filter="1D">1D</span>
+                        <span class="ext-filter" data-filter="1W">1W</span>
+                        <span class="ext-filter" data-filter="1M">1M</span>
+                        <span class="ext-filter" data-filter="3M">3M</span>
+                        <span class="ext-filter" data-filter="1Y">1Y</span>
+                    </div>
+                </div>
+
+                <div class="extended-price" id="extendedPrice"></div>
+
+                <div class="chart-container">
+                    <div id="chart" style="height: 250px;"></div>
+                </div>
+
+                <div class="extended-stats">
+                    <div>
+                        <p>AVG Today: <span id="avgPrice"></span></p>
+                        <p>HIGH Today: <span id="highPrice"></span></p>
+                        <p>LOW Today: <span id="lowPrice"></span></p>
+                    </div>
+
+                    <div>
+                        <p>Your Amount: <span id="userAmount"></span></p>
+                        <p>Value: <span id="userValue"></span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </main>
 
     <div class="modal hidden" id="modal">
@@ -119,6 +156,8 @@
                     
             </div>
         </div>
+
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
